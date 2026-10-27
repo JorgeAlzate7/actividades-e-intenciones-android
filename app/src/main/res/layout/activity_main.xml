@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:theme="?attr/actionBarTheme" />
+
+        <!-- Respuestas y estados de los ejercicios -->
+        <TextView
+            android:id="@+id/tvMensajeRecibido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Respuesta Ejercicio 2..."
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Nombre: Juan Pérez\nEdad: 25 años"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvResultadoEj6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Resultado Ejercicio 6..."
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvPerfil7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Perfil: Juan | juan@mail.com | 20 años"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvContacto8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Contacto: Ana López | 3001234567"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <!-- Ejercicio 9 -->
+        <TextView
+            android:id="@+id/tvMensajeEj9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Mensaje actual: Bienvenido a la App"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <!-- Botones de navegación -->
+        <Button
+            android:id="@+id/btnEj1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Ejercicio 1" />
+
+        <Button
+            android:id="@+id/btnEj2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ejercicio 2" />
+
+        <Button
+            android:id="@+id/btnEj3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ejercicio 3" />
+
+        <Button
+            android:id="@+id/btnEj4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ejercicio 4" />
+
+        <Button
+            android:id="@+id/btnEj5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ejercicio 5" />
+
+        <Button
+            android:id="@+id/btnEj6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ejercicio 6" />
+
+        <TextView
+            android:id="@+id/tvLibro10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Libro: Cien Años de Soledad | Gabriel García Márquez"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvNota11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Nota: Comprar materiales para la clase"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvContador11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ediciones realizadas: 0"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvConfigurable12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Texto Configurable Ejercicio 12"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvProducto13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Producto: Laptop Gaming | $1200.0 | Alta gama para desarrollo"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/accion_editar"
+        android:title="Editar Perfil"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/accion_editar_contacto"
+        android:title="Editar Contacto"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/accion_configuracion"
+        android:title="Configuración"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/accion_editar_titulo"
+        android:title="Editar Título Libro"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/accion_editar_autor"
+        android:title="Editar Autor Libro"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/accion_editar_nota"
+        android:title="Editar Nota"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/accion_config12"
+        android:title="Configurar Texto y Tamaño (Ej 12)"
+        app:showAsAction="never" />
+
+    <!-- Ejercicio 13 -->
+    <item
+        android:id="@+id/accion_editar_prod_nombre"
+        android:title="Editar Nombre Producto"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/accion_editar_prod_precio"
+        android:title="Editar Precio Producto"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/accion_editar_prod_desc"
+        android:title="Editar Descripción Producto"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/accion_restablecer_prod"
+        android:title="Restablecer Producto"
+        app:showAsAction="never" />
+</menu>
